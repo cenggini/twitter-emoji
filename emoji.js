@@ -589,7 +589,7 @@ var twemoji = (function (
   }
 
 }());
-twemoji.parse(document.getElementsByTagName('ul')[0], {size: 72});
+twemoji.parse(document.getElementsByTagName('div')[0], {size: 72});
 (function (img, metaKey, i) {
 function copyToClipboard(e) {
 prompt('Copy to clipboard via ' + metaKey + '+C and Enter', this.alt+"CENGGINI SARANG");
